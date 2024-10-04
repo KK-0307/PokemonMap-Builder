@@ -1,0 +1,19 @@
+{
+  "name": "my-ts-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "serve .",
+    "lint": "eslint . --max-warnings=0 --report-unused-disable-directives",
+    "format": "prettier -w ."
+  },
+  "author": "printer83mph",
+  "devDependencies": {
+    "@cis-1962/eslint-config": "^1.0.6",
+    "eslint": "^8.56.0",
+    "jquery": "^3.7.1",
+    "prettier": "^3.0.0",
+    "serve": "^14.2.1"
+  }
+}
